@@ -13,13 +13,19 @@ body{
     height: 5rem;
     background-color: white;
 }
+.navbar-collapse{
+    background-color: #24252b;
+    border-radius: 16px;
+    padding-left:5px;
+
+}
 
 .fa-compass{
     color: #fe424d;
     font-size: 2rem;
 }
 .nav-link{
-    color: #222222 !important;
+    color: white !important;
 }
 
 /* Footer */
