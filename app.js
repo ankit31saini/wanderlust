@@ -86,10 +86,10 @@ async function main(){
 // })
 
 
-//root route
-// app.get("/",(req,res)=>{
-//     res.send("working well");
-// });
+root route
+app.get("/",(req,res)=>{
+    res.redirect("/listings");
+});
 
 
 app.use(session(sessionOptions));
