@@ -86,7 +86,7 @@ async function main(){
 // })
 
 
-root route
+// root route
 app.get("/",(req,res)=>{
     res.redirect("/listings");
 });
